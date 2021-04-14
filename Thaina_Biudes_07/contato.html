@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Thainá Biudes" />
+    <meta name="description" content="Site Babies Store" />
+    <meta
+      name="keywords"
+      content="roupas, infantis, infantil, recem-nascido, brinquedos"
+    />
+    <title>Babies Store | Contato</title>
+    <link href="http://fonts.cdnfonts.com/css/oh-my-its-july" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+  </head>
+  <html>
+    <header id="banner">
+      <img
+        src="img/banner.png"
+        alt="Logotipo Babies Store"
+      />
+      <nav>
+        <ul>
+          <li><a href="index.html" target="_self">Home</a></li>
+          <li><a href="brinquedos.html" target="_self">Brinquedos</a></li>
+          <li><a href="roupas.html" target="_self">Roupas</a></li>
+          <li><a href="contato.html" target="_self">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section> 
+      <h1>Contato</h1>
+      <hr>
+      <form>      
+        <fieldset>
+          <legend><span class="numero">1</span> Quem é você?</legend>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome">
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+           
+          <label for="fone">Telefone:</label>
+          <input type="text" id="fone" name="fone">
+        </fieldset>  
+        
+        <fieldset>
+          <legend><span class="numero">2</span> Fale conosco:</legend>
+          <label for="faleConosco">Dúvidas | Sugestões:</label>
+          <textarea id="faleConosco" name="faleConosco" placeholder="..."></textarea>
+        </fieldset>
+
+        <fieldset>  
+          <legend><span class="numero">2</span> Checklist:</legend>   
+          <label>Interesse:</label>
+          <div id="flex">
+            <label class="peso">
+              <input type="checkbox" id="roupas" value="roupas" name="interesse">
+              Roupas
+            </label>
+            <label class="peso">
+              <input type="checkbox" id="brinquedos" value="brinquedos" name="interesse">
+              Brinquedos
+            </label>
+            <label class="peso">
+              <input type="checkbox" id="parceria" value="parceria" name="interesse">
+              Parceria
+            </label>
+          </div>
+        </fieldset>    
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <footer><p>Babies Store - © Alguns direitos reservados.</p></footer>
+  </body>
+</html>
