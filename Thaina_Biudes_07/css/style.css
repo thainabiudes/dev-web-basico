@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap");
+@import url("http://fonts.cdnfonts.com/css/oh-my-its-july");
 
 body {
   margin: 0;
@@ -64,7 +64,7 @@ iframe {
 
 h1,
 h2 {
-  font-family: "Dancing Script", cursive;
+  font-family: "Oh My Its July", sans-serif;
   color: #312f3a;
   font-size: 50px;
   margin: 0;
@@ -78,7 +78,7 @@ strong {
 hr {
   width: 25vh;
   height: 3px;
-  transform: translateY(-13px);
+  transform: translateY(-20px);
   background-color: #e4bba6;
   border: none;
   border-radius: 5px;
