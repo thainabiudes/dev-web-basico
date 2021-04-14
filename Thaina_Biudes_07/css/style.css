@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#banner {
+  background-image: url("../img/Banner.gif");
+  background-repeat: repeat-x;
+  background-color: #c3dadd;
+}
+
+header > img {
+  margin-top: 80px;
+}
+
+nav {
+  width: 100%;
+  margin-top: 20px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 3px solid #f5e9ae;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 20px;
+  transform: translateY(6px);
+}
+
+ul > li > a:hover {
+  font-weight: bold;
+}
+
+a {
+  font-family: "Roboto Condensed", sans-serif;
+  text-decoration: none;
+  color: #312f3a;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+iframe {
+  width: 50%;
+  height: 50%;
+}
+
+h1,
+h2 {
+  font-family: "Oh My Its July", sans-serif;
+  color: #312f3a;
+  font-size: 50px;
+  margin: 0;
+  margin-top: 50px;
+}
+
+strong {
+  font-size: 18px;
+}
+
+hr {
+  width: 25vh;
+  height: 3px;
+  transform: translateY(-20px);
+  background-color: #e4bba6;
+  border: none;
+  border-radius: 5px;
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  width: 90vh;
+  text-align: justify;
+  color: #312f3a;
+}
+
+#endereco {
+  text-align: center;
+}
+
+footer {
+  background-color: #e4bba6;
+}
+
+footer > p {
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 50px;
+  padding: 10px;
+  border-top: 3px solid #c3dadd;
+  width: 100%;
+}
+
+div {
+  width: 90vh;
+}
+
+div > img {
+  width: 180px;
+  height: 180px;
+  margin: 20px 7px;
+}
+
+form {
+  min-width: 85vh;
+  margin: 10px auto;
+  padding: 30px 20px;
+  background: #f5e9ae;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  background: #312f3a;
+  border: none;
+  font-size: 16px;
+  padding: 15px;
+  width: 80vh;
+  background-color: #ffffff;
+  color: #312f3a;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+textarea {
+  height: 80px;
+}
+
+button {
+  left: 25%;
+  position: relative;
+  padding: 19px 39px 18px 39px;
+  color: #fff;
+  background-color: #896a44;
+  font-size: 18px;
+  border-radius: 5px;
+  width: 40vh;
+  border: 1px solid #896a44;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.peso {
+  font-weight: 300;
+}
+
+.numero {
+  background-color: #896a44;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+}
+
+#flex {
+  display: flex;
+  flex-direction: column;
+}
