@@ -1,0 +1,37 @@
+h1,
+h2,
+h3,
+a,
+li,
+p,
+button {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.font-color {
+  color: #eedae5;
+}
+
+.bg-personalized {
+  background-color: #eedae5;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: #eedae5;
+}
+
+img {
+  max-width: 200px;
+  height: 150px;
+  display: block;
+  margin: 20px auto;
+}
+
+h2 {
+  color: #17a2b8 !important;
+}
+
+button {
+  border: none !important;
+}
